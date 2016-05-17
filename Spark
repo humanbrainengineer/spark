@@ -21,11 +21,13 @@ Launch an example application on the cluster
 Downloading Spark
 
 The latest version of Spark can be downloaded here. Even if you're not planning on using Hadoop, a pre-built version is more than fine.
+------------------------------------------------------------------------------------
 
 wget http://apache.mirror.anlx.net/spark/spark-1.6.1/spark-1.6.1-bin-hadoop2.6.tgz
 tar -xvzf spark-1.6.1-bin-hadoop2.6.tgz
 rm -rf spark-1.6.1-bin-hadoop2.6.tgz
 mv spark-1.6.1-bin-hadoop2.6/ spark
+-------------------------------------------------------------------------------------
 You should download Spark into all the nodes you want your applications to run on.
 
 If you want to see Spark in action, run one of the example scripts. Spark comes with plenty examples for both Scala and Python (these can be found under examples/src/main/).
